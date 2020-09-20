@@ -1,4 +1,4 @@
-# Gerenciador_estoque" 
+# Gerenciador_estoque
 
 Pequeno projeto feito no CodeIgniter 4
 Gerenciador de estoque utilizando as linguagem web e o framework.
