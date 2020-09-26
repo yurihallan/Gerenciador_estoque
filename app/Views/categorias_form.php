@@ -12,7 +12,7 @@
         
         <form method="post" >
             <p>Nome da categoria:
-                <input type="text" name="nomecategoria"/>    
+                <input type="text" name="nomecategoria" value="<?php echo (isset($categoria) ? $categoria->nomecategoria : '' ) ?>"/>    
             </p>
             <input type="submit" value="<?php echo $acao ?>"/>
         </form>
