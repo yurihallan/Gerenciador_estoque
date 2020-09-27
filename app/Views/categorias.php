@@ -1,17 +1,5 @@
-<html>
-    <head>
-        <title><?php echo $titulo ?></title>
-    
-        <style>
-            .tabela, .tabela td, .tabela tr{
-                border: 1px solid;
-            }
-            .tabela{
-                width: 500px;
-            }
-        </style>
-    </head>
-    <body>
+<?php echo $this->include('header',array('titulo'=> $titulo)) ?>
+
         <h2><?php echo $titulo?></h2>
         <p><?php echo $msg ?></p>
 
@@ -37,5 +25,6 @@
 
             <?php endforeach ?>
         </table>
-    </body>
-</html>
+  
+
+<?php echo $this->include('footer') ?>

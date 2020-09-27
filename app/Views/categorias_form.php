@@ -17,5 +17,5 @@
             <input type="submit" value="<?php echo $acao ?>"/>
         </form>
 
-    </body>
-</html>
+
+<?php echo $this->include('footer') ?>
